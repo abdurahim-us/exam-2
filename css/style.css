@@ -59,7 +59,6 @@
 	overflow: hidden;
 }
 
-
 body {
 	font-family: 'Open Sans';
 	position: relative;
@@ -72,6 +71,7 @@ html {
 
 
 .nav  {
+	z-index: 2;
 	width: 100%;
 	position: fixed;
 	top: 0;
@@ -256,16 +256,16 @@ html {
 
 .xizmatlar-item__title {
 	font-style: normal;
-font-weight: bold;
-font-size: 20px;
-padding: 16px 0;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 16px 0;
 }
 
 .xizmatlar-item__subtext {
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
 }
 
 .xizmatlar-links {
@@ -283,12 +283,12 @@ line-height: 24px;
 	border-radius: 5px;
 	border: 2px solid #00BAFC;
 	font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 24px;
-margin: 0 10px;
-transition: color .4s,
-			background .4s;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0 10px;
+	transition: color .4s,
+	background .4s;
 }
 
 .xizmatlar-link_blue:hover {
@@ -300,12 +300,12 @@ transition: color .4s,
 	display: block;
 	color: #00BAFC;
 	font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
-margin: 0 10px;
-transition: text .4s;
-position: relative;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0 10px;
+	transition: text .4s;
+	position: relative;
 }
 
 .xizmatlar-link::after {
@@ -324,8 +324,8 @@ position: relative;
 
 
 .xizmatlar-link:hover::after {
-		transform: scaleX(1);
-		transform-origin: left;
+	transform: scaleX(1);
+	transform-origin: left;
 }
 
 .qanday>.container {
@@ -334,7 +334,7 @@ position: relative;
 }
 
 .qanday>.container>.header {
-		margin: 0 auto;
+	margin: 0 auto;
 	padding-top: 56px;
 	width: 710px;
 	text-align: center;	
@@ -342,22 +342,22 @@ position: relative;
 
 .qanday-title {
 	font-style: normal;
-font-weight: bold;
-font-size: 24px;
+	font-weight: bold;
+	font-size: 24px;
 }
 
 .qanday-header__subtext {
 	font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
-padding-top: 16px;
-padding-bottom: 24px;	
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	padding-top: 16px;
+	padding-bottom: 24px;	
 }
 
 .qanday-list {
 	display: flex;
-/*	flex-direction: column;*/
+	/*	flex-direction: column;*/
 	flex-wrap: wrap;
 	justify-content: center;
 }
@@ -377,34 +377,34 @@ padding-bottom: 24px;
 .qanday-item__subtext {
 	width: 45%;
 }
- .qanday-item__img {
- 	width: 45%;
- }
+.qanday-item__img {
+	width: 45%;
+}
 
- .qanday-link {
- 	margin: 0 auto;
- 	margin-bottom: 56px;
- 	display: flex;
- 	align-items: center;
- 	justify-content: center;
- 	width: 167px;
- 	height: 40px;
- 	background: #00BAFC;
- 	color: #fff;
- 	border-radius: 5px;
- 	border: 2px solid #00BAFC;
- 	transition: background .4s,
- 				color .4s;
- }
+.qanday-link {
+	margin: 0 auto;
+	margin-bottom: 56px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 167px;
+	height: 40px;
+	background: #00BAFC;
+	color: #fff;
+	border-radius: 5px;
+	border: 2px solid #00BAFC;
+	transition: background .4s,
+	color .4s;
+}
 
- .qanday-link:hover {
- 	background: white;
- 	color: #00bafc;
- }
+.qanday-link:hover {
+	background: white;
+	color: #00bafc;
+}
 
- .buyurtma {
- 	background: #00BAFC;
- }
+.buyurtma {
+	background: #00BAFC;
+}
 
 .buyurtma>.container {
 	width: 1140px;
@@ -421,19 +421,19 @@ padding-bottom: 24px;
 
 .buyurtma-title {
 	font-style: normal;
-font-weight: bold;
-font-size: 24px;
-color: #FFFFFF;
-padding-bottom: 16px;
+	font-weight: bold;
+	font-size: 24px;
+	color: #FFFFFF;
+	padding-bottom: 16px;
 }
 
 
 .buyurtma-header__text {
 	padding-bottom: 24px;
 	font-style: normal;
-font-weight: normal;
-font-size: 16px;
-color: #FFFFFF;
+	font-weight: normal;
+	font-size: 16px;
+	color: #FFFFFF;
 }
 
 .input-container {
@@ -458,8 +458,8 @@ color: #FFFFFF;
 	width: 100%;
 	position: relative;
 }
- .input-cont input {
- 	position: relative;
+.input-cont input {
+	position: relative;
 	height: 100%;
 	width: 100%;
 	border:none;
@@ -505,7 +505,7 @@ option {
 	height: 41px;
 	color: #fff;
 	transition: background .4s,
-				color .4s;
+	color .4s;
 	border: 2px solid#00BAFC;
 	background: #00BAFC;
 	border-radius: 5px;
@@ -543,24 +543,24 @@ option {
 	width: 320px;
 }
 .footer-copy__title {
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-padding-bottom: 16px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 16px;
 }
 
 .footer-copy__subtext {
 	font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 150%;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 150%;
 }
 
 .footer-sahifa__title  {
 	font-style: normal;
-font-weight: bold;
-font-size: 20px;
-padding-bottom: 16px;
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 16px;
 }
 
 .footer-sahifa__item>a {
@@ -573,9 +573,9 @@ padding-bottom: 16px;
 
 .footer-internet__title {
 	font-style: normal;
-font-weight: bold;
-font-size: 20px;
-padding-bottom: 16px;
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 16px;
 }
 
 
